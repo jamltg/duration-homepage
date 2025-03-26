@@ -110,7 +110,6 @@ button {
 }
 
 .right {
-    flex: 1;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
@@ -133,7 +132,8 @@ button {
 
 .bottom {
     display: flex;
-    gap: 1rem; /* No gap between squares */
+    width: 100%; /* Ensure it aligns with top-rectangle */
+    gap: 0; /* Remove gaps */
 }
 
 .square {
