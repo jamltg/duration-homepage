@@ -119,11 +119,10 @@ button {
 
 .top-rectangle {
     position: relative;
-    display: flex;
-    justify-content: flex-start;
 }
 
 .top-rectangle img {
+    width: calc(100% + 1rem);
     vertical-align: bottom;
     max-width: 100%;
     max-height: 100%;
@@ -133,7 +132,7 @@ button {
 .bottom {
     display: flex;
     width: 100%; /* Ensure it aligns with top-rectangle */
-    gap: 0; /* Remove gaps */
+    gap: 1rem; /* Remove gaps */
 }
 
 .square {
