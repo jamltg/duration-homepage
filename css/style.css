@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+:root{
+    --primary-color: #455060;
+    --secondary-color: #0063a6;
+    --topbar-font-size: 14px;
+}

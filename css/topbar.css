@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.topbar {
+    max-width: 1200px;
+    margin: auto;
+    display:flex;
+    justify-content: space-between;
+    min-height:3rem;
+    align-items: stretch;
+}
+
+.topbar-container{
+    background-color: var(--primary-color);
+}
+
+.topbar-left{
+    display:flex;
+    align-items: center;
+    gap:20px;
+}
+
+.topbar-left li{
+    list-style: none;
+}
+
+.topbar-left li a{
+    text-decoration: none;
+    color:#fff;
+    font-size: 14px;
+}
+
+.fa-envelope{
+    margin-right: 5px;
+}
+
+.fa-phone{
+    margin-right: 5px;
+}
+
+.topbar-right {
+    display:flex;
+    align-items: center;
+    list-style: none;
+}
+
+.topbar-right li {
+    padding: 0 12px;
+    border-left: 1px solid #000;
+    height:100%;
+    display:flex;
+    align-items: center;
+}
+
+.topbar-right li a {
+    color:#fff;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.topbar-right li a:hover {
+    color:var(--secondary-color);
+    transition:0.2s;
+}
+
+.topbar-right li a i {
+    color:#fff;
+    font-size: 20px;
+    display: inline-block; /* Ensures the icon behaves correctly during transformation */
+    transition: transform 0.3s ease-in-out; /* Smooth rotation transition */
+}
+
+.topbar-right li a:hover i {
+    transform: rotate(360deg); /* Full rotation */
+    color:var(--secondary-color);
+}
+
+@media (max-width: 768px) {
+    /* Styles for phones */
+    
+}
+
+
